@@ -1,4 +1,5 @@
 ﻿using Lab13.Generator;
+
 namespace Lab13.Models;
 
 public sealed class QuestionViewModel
@@ -10,7 +11,7 @@ public sealed class QuestionViewModel
     get => _question;
     set => _question = value;
   }
-  
+
   private int _answer;
 
   public int Answer
@@ -18,6 +19,6 @@ public sealed class QuestionViewModel
     get => _answer;
     set => _answer = value;
   }
-  
+
   public String ShowQuestion() => _question.ConvertToString();
 }

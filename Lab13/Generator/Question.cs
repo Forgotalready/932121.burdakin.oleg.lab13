@@ -1,4 +1,5 @@
 ﻿namespace Lab13.Generator;
+
 using System;
 
 public sealed class Question

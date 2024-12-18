@@ -3,11 +3,11 @@
 public sealed class QuestionGenerator
 {
   private readonly List<String> _operations = ["+", "*", "-", "/"];
-  
+
   public Question GenerateQuestion()
   {
     var random = new Random();
-    int firstNumber =  random.Next(1, 10);
+    int firstNumber = random.Next(1, 10);
     int secondNumber = random.Next(1, 10);
 
     int operationsAmount = _operations.Count;

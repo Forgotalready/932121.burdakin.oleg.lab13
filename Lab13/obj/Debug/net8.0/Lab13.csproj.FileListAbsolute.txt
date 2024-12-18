@@ -28,3 +28,4 @@ D:\NewFolder\Labs\WebDev\932121.burdakin.oleg.lab13\Lab13\Lab13\obj\Debug\net8.0
 D:\NewFolder\Labs\WebDev\932121.burdakin.oleg.lab13\Lab13\Lab13\obj\Debug\net8.0\Lab13.pdb
 D:\NewFolder\Labs\WebDev\932121.burdakin.oleg.lab13\Lab13\Lab13\obj\Debug\net8.0\Lab13.genruntimeconfig.cache
 D:\NewFolder\Labs\WebDev\932121.burdakin.oleg.lab13\Lab13\Lab13\obj\Debug\net8.0\ref\Lab13.dll
+D:\NewFolder\Labs\WebDev\932121.burdakin.oleg.lab13\Lab13\Lab13\obj\Debug\net8.0\Lab13.sourcelink.json

@@ -5,7 +5,9 @@
     Layout = "_Layout";
 }
 
-@Model.ShowQuestion()
+<h2>Quiz</h2>
+
+@Model.ShowQuestion() =
 
 @using (Html.BeginForm(null, null, method: FormMethod.Post))
 {
@@ -14,6 +16,8 @@
     @Html.HiddenFor(m => m.Question.Operation)
     @Html.TextBoxFor(m => m.Answer)
 
-    <button type="submit" formaction="@Url.Action("Index", "Quiz")">Next</button>
-    <button type="submit" formaction="@Url.Action("Result", "Quiz")">Finish</button>
+    <div style="margin-top: 10px">
+        <button class="btn btn-outline-secondary" type="submit" formaction="@Url.Action("Index", "Quiz")">Next</button>
+        <button class="btn btn-primary" type="submit" formaction="@Url.Action("Result", "Quiz")">Finish</button>
+    </div>
 }
